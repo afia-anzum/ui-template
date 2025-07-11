@@ -1,11 +1,55 @@
+.font {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+header{
+    width:100%;
+    max-height: 698px;
+    /* padding-bottom: 200px; */
+    gap: 158px;
+     background-image: url(Assets/Hero-bg.png);
+     background-size: cover;
+     background-repeat: repeat-x;
+}
+header h1{
+    gap: 37px;
+    text-align: center;
+    font-weight: 700px;
+    height: 152px;
+    font-size: xxx-large;
+   
+}
+
 header div{
-      background-image: url(Assets/Hero-bg.png);
-    background-repeat: no-repeat;
+    max-width: 1140px;
+    justify-content: space-around;
+    display: flex;
+    padding: 50px 50px;
+     
+   
+   
+   
+ 
+}
+header div button{
+    color: white;
+    height: 50px;
+    width: 130px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    
+   
+   
+   
 }
 
 header div h2{
+   margin-top: 0;
     color: blue;
     font-weight: bolder;
+    font-size: 2.15em;
   
     
 }
