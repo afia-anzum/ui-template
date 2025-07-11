@@ -53,3 +53,7 @@ header div h2{
   
     
 }
+.banner img{
+    width: 100%;
+    justify-items: center;
+}
