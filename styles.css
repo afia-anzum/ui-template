@@ -1,0 +1,11 @@
+header div{
+      background-image: url(Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+}
+
+header div h2{
+    color: blue;
+    font-weight: bolder;
+  
+    
+}
