@@ -1,4 +1,6 @@
-
+body{
+    background-color: #f5efef;
+}
 
 .raleway-font {
   font-family: "Raleway", sans-serif;
@@ -164,7 +166,7 @@ color: #00000080;
     /* display: inline; */
 }
 .card-one{
-    background-color: rgb(238, 238, 238);
+    background-color: white;
       border-radius: 14px;
    
      min-width: 360px;
@@ -179,4 +181,89 @@ color: #00000080;
 }
 .card-one h3{
     font-size: 32px;
+}
+.template{
+    
+    max-width: 1140px;
+    gap: 20px;
+    background-color: white;
+    text-align: center;
+    display: block;
+    border-radius: 14px;
+    padding: 71px 150px 71px 150px;
+    height: 696.7734375px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.template h2{
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 550px;
+    text-align: center;
+}
+.template p{
+    font-size: 24px;
+    color: #00000080;
+    text-align: center;
+}
+.template-btn{
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px 12px 36px;
+    color: white;
+  
+  
+}
+
+.template-img{
+    margin-top: 10px;
+    width: 840px;
+    border-radius: 48px;
+     display: block;        
+    margin-left: auto;      
+    margin-right: auto;
+}
+.form{
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.form h3{
+    font-size: 97px;
+    margin-bottom: 20%;
+}
+/* .form-info{
+     
+} */
+.form-info input{
+    margin-bottom:5%;
+    margin-top: 5%;
+     padding-left: 20px;
+}
+/* .form-info label{
+    margin-bottom: 5%;
+} */
+
+.form-info textarea{
+    
+     margin-top: 5%;
+      padding-left: 20px;
+      padding-top: 20px;
+     
+}
+.form-info input ,textarea{
+display: block;
+
+}
+
+
+.form-info button{
+     margin-top: 5%;
+     color: white;
+     background-color: #4E47FF;
+    padding: 19px 101px 19px 101px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
 }
