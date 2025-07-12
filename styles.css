@@ -1,6 +1,9 @@
-.font {
-  font-family: "Plus Jakarta Sans", sans-serif;
+
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
+
   font-style: normal;
 }
 header{
@@ -13,6 +16,7 @@ header{
      background-repeat: repeat-x;
 }
 header h1{
+    margin-bottom: 0;
     gap: 37px;
     text-align: center;
     font-weight: 700px;
@@ -29,6 +33,7 @@ header div{
 
 }
 header div button{
+    
     color: white;
     height: 50px;
     width: 130px;
@@ -38,6 +43,7 @@ header div button{
     }
 
 header div h2{
+    margin-right: 60%;
    margin-top: 0;
     color: #4E47FF;
     font-weight: bolder;
@@ -70,6 +76,7 @@ section{
     background-color:#4E47FF;
     border: none;
     border-radius: 10px;
+    
 }
 section img{
     
@@ -100,6 +107,10 @@ section img{
    
     display: flex;
 }
+
+.btn1{
+    margin-top: 0;
+}
 .one h1, .two h1 , .three h1{
   
      margin-top: 0;
@@ -113,4 +124,59 @@ section img{
     padding-left: 10%;
 
 color: #00000080;
+}
+.review-title{
+    font-size: 42px;
+    font-weight: 700px;
+    text-align: center;
+    color: #252432;
+}
+.review-section{
+   
+  
+    display: block;
+}
+.card{
+ 
+      justify-content: space-around;
+    display: flex;
+}
+.reviewer-name{
+    display: flex;
+}
+.info{
+   
+    margin: 5px;
+   gap: 10px;
+    display: block;
+}
+.info h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #757575;
+}
+.info h5{
+    margin-top: 0px;
+    color: #B3B3B3;
+}
+.reviewer-img{
+    border-radius: 50%;
+    /* display: inline; */
+}
+.card-one{
+    background-color: rgb(238, 238, 238);
+      border-radius: 14px;
+   
+     min-width: 360px;
+    gap:10px;
+    padding:  24px;
+  
+}
+.card-one p{
+    font-size: 24px;
+    text-align: left;
+    color: #08080880;
+}
+.card-one h3{
+    font-size: 32px;
 }
